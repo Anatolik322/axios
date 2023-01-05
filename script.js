@@ -4,7 +4,7 @@
 
 //const axios = require('axios').default;
 
-axios.get('http://localhost:3000/clients').then(response=>{
+axios.get('db.json/clients').then(response=>{
     //console.log(response.data);
     return response.data;
 }).then(  data => {
@@ -27,7 +27,7 @@ function prepareData(email, number, name){
 //console.log(prepareData('fsfs', '9090090', 'Ivan'));
 btn.addEventListener('click', ()=>{
   if(formEm.value.length > 0 && formNum.value.length > 0 && formName.value.length > 0){
-    axios.post('http://localhost:3000/clients', prepareData(formEm.value, formNum.value, formName.value) ).then(function (response) {
+    axios.post('db.json/clients', prepareData(formEm.value, formNum.value, formName.value) ).then(function (response) {
       console.log(response);
     })
     .catch(function (error) {
