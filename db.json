@@ -1,0 +1,52 @@
+{
+  "clients": [
+    {
+      "name": "ds",
+      "email": "dsd",
+      "number": "dasdsa",
+      "id": 1
+    },
+    {
+      "name": "Ivan",
+      "email": "",
+      "number": "9090090",
+      "id": 2
+    },
+    {
+      "name": "Ivan",
+      "email": "ffgdgdfg",
+      "number": "9090090",
+      "id": 3
+    },
+    {
+      "name": "Ivan",
+      "email": "gmail.com",
+      "number": "9090090",
+      "id": 4
+    },
+    {
+      "name": "Petro",
+      "email": "petro@gmail.com",
+      "number": "0972314533",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "number": "",
+      "id": 6
+    },
+    {
+      "name": "rgd",
+      "email": "grd",
+      "number": "r",
+      "id": 7
+    },
+    {
+      "name": "Мекола",
+      "email": "mukola@gmail.com",
+      "number": "0972315530",
+      "id": 8
+    }
+  ]
+}
